@@ -59,4 +59,7 @@ Developed by Usman Idzhami.
     'installable': True,
     'application': True,
     'auto_install': False,
+    'price' : 100,
+    'currency': 'USD',
+
 }
