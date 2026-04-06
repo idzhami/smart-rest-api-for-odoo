@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Smart REST API for Odoo",
+    'name': "REST API for Odoo",
     'version': '18.0.1.0.0',
     'summary': "Powerful REST API framework for seamless Odoo integration with external systems.",
 
@@ -59,7 +59,7 @@ Developed by Usman Idzhami.
     'installable': True,
     'application': True,
     'auto_install': False,
-    'price' : 100,
+    'price' : 81,
     'currency': 'USD',
 
 }
