@@ -1,0 +1,165 @@
+<div style="font-family: 'Segoe UI', Arial, sans-serif; background:#f4f6fb; padding:20px; line-height:1.6;">
+
+    <!-- HERO -->
+    <div style="background: linear-gradient(135deg, #4e73df, #1cc88a); color:white; padding:50px 30px; border-radius:14px; text-align:center;">
+        <h1 style="margin:0; font-size:36px;">Smart REST API for Odoo</h1>
+        <p style="margin-top:10px; font-size:18px;">
+            Connect Odoo with Mobile Apps, Websites, and Third-Party Systems
+        </p>
+        <p style="margin-top:10px; font-size:14px; opacity:0.9;">
+            JWT Authentication - Swagger UI - Full CRUD API - Developer Friendly
+        </p>
+    </div>
+
+    <!-- WHY -->
+    <div style="background:white; padding:30px; margin-top:20px; border-radius:14px;">
+        <h2 style="color:#4e73df;">Why This Module?</h2>
+        <p>
+            Many businesses struggle to integrate Odoo with external systems such as mobile applications or modern frontend frameworks.
+        </p>
+        <p>
+            <strong>Smart REST API for Odoo</strong> solves this problem by providing a secure and scalable API layer that allows seamless communication between Odoo and any external platform.
+        </p>
+    </div>
+
+    <!-- OVERVIEW -->
+    <div style="background:white; padding:30px; margin-top:20px; border-radius:14px;">
+        <h2 style="color:#1cc88a;">Overview</h2>
+        <p>
+            This module transforms your Odoo into a powerful backend system ready to be consumed by modern applications.
+        </p>
+        <ul>
+            <li>Connect Odoo to Android and iOS apps</li>
+            <li>Integrate with React, Vue, or any frontend</li>
+            <li>Enable headless architecture</li>
+            <li>Automate data exchange with third-party systems</li>
+        </ul>
+    </div>
+
+    <!-- GIF DEMO -->
+    <div style="background:white; padding:30px; margin-top:20px; border-radius:14px;">
+        <h2 style="color:#36b9cc;">Live Demo</h2>
+        <p>See how easy it is to use the API with Swagger and JWT authentication:</p>
+
+        <div style="text-align:center; margin-top:15px;">
+            <img src="final.gif" style="max-width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.1);" alt="API Demo"/>
+        </div>
+    </div>
+
+    <!-- REST API -->
+    <div style="background:white; padding:30px; margin-top:20px; border-radius:14px;">
+        <h2 style="color:#1cc88a;">What is REST API?</h2>
+        <p>
+            REST API (Representational State Transfer) is a standard way for applications to communicate over HTTP.
+        </p>
+        <p>
+            It allows your Odoo system to act as a backend service that can be accessed from anywhere.
+        </p>
+    </div>
+
+    <!-- SWAGGER -->
+    <div style="background:white; padding:30px; margin-top:20px; border-radius:14px;">
+        <h2 style="color:#f6c23e;">What is Swagger?</h2>
+        <p>
+            Swagger is an interactive API documentation tool that allows developers to test APIs directly in the browser.
+        </p>
+        <ul>
+            <li>Explore endpoints visually</li>
+            <li>Test API without external tools</li>
+            <li>Understand request & response instantly</li>
+        </ul>
+    </div>
+
+    <!-- FEATURES -->
+    <div style="margin-top:20px; display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:15px;">
+
+        <div style="background:white; padding:20px; border-radius:12px;">
+            <h3 style="color:#4e73df;">JWT Authentication</h3>
+            <p>Secure token-based authentication system.</p>
+        </div>
+
+        <div style="background:white; padding:20px; border-radius:12px;">
+            <h3 style="color:#1cc88a;">Full REST API</h3>
+            <p>Complete Create, Read, Update, Delete operations.</p>
+        </div>
+
+        <div style="background:white; padding:20px; border-radius:12px;">
+            <h3 style="color:#36b9cc;">Swagger UI</h3>
+            <p>Interactive API documentation for easy testing.</p>
+        </div>
+
+        <div style="background:white; padding:20px; border-radius:12px;">
+            <h3 style="color:#f6c23e;">Easy Integration</h3>
+            <p>Works with mobile apps and modern frontend frameworks.</p>
+        </div>
+
+    </div>
+
+    <!-- ENDPOINTS -->
+    <div style="background:white; padding:30px; margin-top:20px; border-radius:14px;">
+        <h2 style="color:#4e73df;">API Endpoints</h2>
+
+        <h4>Authentication</h4>
+        <ul>
+            <li>POST /api/v1/login</li>
+            <li>POST /api/v1/logout</li>
+        </ul>
+
+        <h4>Products</h4>
+        <ul>
+            <li>GET /api/v1/products</li>
+            <li>POST /api/v1/products</li>
+            <li>PUT /api/v1/products/{id}</li>
+            <li>DELETE /api/v1/products/{id}</li>
+        </ul>
+    </div>
+
+    <!-- FLOW -->
+    <div style="background:white; padding:30px; margin-top:20px; border-radius:14px;">
+        <h2 style="color:#1cc88a;">Authentication Flow</h2>
+        <ol>
+            <li>Login and receive JWT token</li>
+            <li>Include token in header</li>
+            <li>Access protected endpoints</li>
+            <li>Logout when finished</li>
+        </ol>
+
+        <pre style="background:#f4f4f4; padding:12px; border-radius:6px;">
+Authorization: Bearer your_token_here
+        </pre>
+    </div>
+
+    <!-- INSTALL -->
+    <div style="background:white; padding:30px; margin-top:20px; border-radius:14px;">
+        <h2 style="color:#4e73df;">Installation</h2>
+        <ol>
+            <li>Copy module into addons folder</li>
+            <li>Update Apps List</li>
+            <li>Install the module</li>
+        </ol>
+    </div>
+
+    <!-- JWT -->
+    <div style="background:white; padding:30px; margin-top:20px; border-radius:14px;">
+        <h2 style="color:#e74a3b;">Requirements</h2>
+        <p>Install required Python library:</p>
+        <pre style="background:#f4f4f4; padding:12px; border-radius:6px;">
+pip install PyJWT
+        </pre>
+    </div>
+
+    <!-- CTA -->
+    <div style="background: linear-gradient(135deg, #1cc88a, #4e73df); color:white; padding:30px; margin-top:20px; border-radius:14px; text-align:center;">
+        <h2>Ready to Integrate Odoo with Modern Apps?</h2>
+        <p>Start building powerful integrations today with Smart REST API.</p>
+    </div>
+
+    <!-- AUTHOR -->
+    <div style="text-align:center; margin-top:30px;">
+        <p style="color:#777;">
+            Developed by <strong>Usman Idzhami</strong><br/>
+            ERP Developer & Odoo Specialist
+        </p>
+    </div>
+
+</div>
